@@ -32,8 +32,6 @@ public class MainActivity extends ActionBarActivity {
         items = new ArrayList<>();
         itemsAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, items);
         lvItems.setAdapter(itemsAdapter);
-        //items.add("First Item");
-        //items.add("Second Item");
         setupListViewListener();
     }
 
