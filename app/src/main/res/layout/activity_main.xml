@@ -11,6 +11,7 @@
         android:text="Add Item"
         android:id="@+id/btnAddItem"
         android:layout_alignParentBottom="true"
+        android:onClick="onAddItem"
         android:layout_alignParentEnd="true" />
 
     <EditText
